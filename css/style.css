@@ -1,0 +1,119 @@
+
+.maintext{
+	padding-top:5px;
+display:inline-table;
+text-align:center;
+background:#FFFFFA;
+
+}
+
+.countdown-title {
+	font-family: sans-serif;
+  color: #4682B4;
+  font-weight: 1000;
+  font-size: 30px;
+  margin: 20px 0px 0px;
+}
+ 
+.countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+}
+ 
+.countdown-number {
+  padding: 10px;
+  border-radius: 5px;
+  background: #00bf96;
+  display: inline-block;
+}
+ 
+.countdown-time {
+  padding: 7px;
+  border-radius: 5px;
+  background: #00816a;
+  display: inline-block;
+}
+ 
+.countdown-text {
+  display: block;
+  padding-top: 1px;
+  font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-init {
+    max-width: 1000px; 
+    margin: auto; 
+    /* background-color: lightsteelblue;  */
+    padding: 30px; 
+}
+.box-init {
+    
+    color: #fff; 
+    background-color: #AFEEEE; 
+    padding: 15px; 
+    display: grid; 
+    align-items: bottom;
+    justify-content: bottom;
+}
+
+.grid-main {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr );
+	grid-template-rows: repeat(3,300px);
+}
+.product-photo {
+	position: relative;
+	/* padding-bottom: 100%; */
+	overflow: hidden;
+}
+.product-photo img {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+
+.portfolio {
+  
+  /* width: 100%; */
+  /* float: left; */
+  -webkit-box-shadow: 5px 2px 5px 5px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 5px 2px 5px 5px rgba(0, 0, 0, 0.06);
+  box-shadow: 5px 2px 5px 5px rgba(0, 0, 0, 0.06);
+   
+}
+
+.portfolio .portfolio-text {
+	display:inline-block;
+	width: 100%;
+  /* float: left; */
+  padding: 2px;
+   font-size: 16px;
+  
+}
+
+.portfolio .portfolio-text .stuff{
+	 display: inline-block;
+  /* margin-left: 10px; */
+  color: rgba(0, 0, 0, 0.3);
+ 
+	font-size: 5px;
+	 margin: 0;
+	 border-top: 3px solid rgba(0, 0, 0, 0.05);
+}
+
+.

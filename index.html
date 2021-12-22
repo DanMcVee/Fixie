@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>Fixed Gear Bike</title>
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+			<link rel="stylesheet" href="css/style.css">
+			<script src="js/countdown.js"></script>	
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+
+		<style>
+
+			#fix_icon{
+			-webkit-filter:drop-shadow(5px 5px 5px #4682B4);
+			filter: drop-shadow(5px 5px 5px #4682B4);
+			opacity:50%;
+			}
+
+			body {
+			  font-family: "Roboto Mono", monospace;
+			  font-weight: 400;
+			  font-size: 20px;
+			  line-height: 2;
+			  color: #8f989f;
+			  height: 100%;
+			  position: relative;
+			  text-align: center;
+			  margin: 0px;
+			  
+			}
+
+			<!-- .centered{ -->
+			<!-- position:absolute; -->
+			<!-- top:50%; -->
+			<!-- left:50%; -->
+			<!-- transform:translate(-50%, -50%); -->
+			<!-- } -->
+			
+			.gr_header { grid-area: header; text-align: left; color: black; background: #B0E0E6; font-family: "Roboto Mono", monospace;  font-size: 25px; }
+			.gr_section { grid-area: section; background:#FFFFF0;}
+			.gr_main { grid-area: main; background-image:url(images/fixbackop.png); background-color:  #FFFFFA; }
+			.gr_left { grid-area: left; color: #FFA07A; background: #F0FFF0;}
+			.gr_right { grid-area: right; background:white; border-left:1px solid black; }
+
+			.grid{
+			display:grid;
+			grid-template-areas: "header header header"
+								"left main right"
+								"section section section";
+			grid-template-columns: 250px 1fr 170px;
+			grid-template-rows: 50px
+								1fr
+								80px;
+			min-height: 100vh;
+			}
+
+			
+		</style>
+	</head>
+
+<body class="grid">
+	<header class="gr_header", style="padding-left: 50px">
+		FIXIE.
+	</header>
+
+			<main class="gr_main" >
+				<div class="maintext">
+					<h2 style="line-height: 0" >Best Bikes</h2>
+					<h3 style="line-height: 0" > One of best bicycle online shop in The World </h3>
+				</div>
+				
+				<div class="grid-init grid-main">
+					
+						<div class="box-init portfolio">
+							<div class="product-photo">
+								<img src="images/fix1.jpg" alt="">
+							</div>
+						<div class="portfolio-text"> TSUNAMI SNM100 2021</div>
+						<div class="stuff"> $519.00 </div>
+						</div>
+					
+					<div class="box-init portfolio">
+						<div class="product-photo">
+							<img src="images/fix2.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> CREATE Single Speed Bike</div>
+						<div class="stuff"> $259.00 </div>
+					</div>
+					<div class="box-init portfolio ">
+						<div class="product-photo">
+							<img src="images/fix3.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> UNKNOWN PS2 FIXIE BIKE</div>
+						<div class="stuff"> $635.00 </div>
+					</div>
+					<div class="box-init portfolio">
+						<div class="product-photo">
+							<img src="images/fix4.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> TSUNAMI SNM100 FIXIE BIKE</div>
+						<div class="stuff"> $519.00 </div>
+					</div>
+					<div class="box-init portfolio">
+						<div class="product-photo">
+							<img src="images/fix5.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> TSUNAMI SNM100 Platinum</div>
+						<div class="stuff"> $505.00 </div>
+					</div>
+					<div class="box-init portfolio">
+						<div class="product-photo">
+							<img src="images/fix6.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> LEADER 721 COMPLETE BIKE </div>
+						<div class="stuff"> $699.00 </div>
+					</div>
+					<div class="box-init portfolio">
+						<div class="product-photo">
+							<img src="images/fix7.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> CREATE Single Speed Bike</div>
+						<div class="stuff"> $259.00 </div>
+					</div>
+					<div class="box-init portfolio">
+						<div class="product-photo">
+							<img src="images/fix8.jpg" alt="">
+						</div>
+						<div class="portfolio-text"> VINTAGE Fixed Bike</div>
+						<div class="stuff"> $298.00 </div>
+						
+					</div>
+					<div class="box-init portfolio">
+					<div class="product-photo">
+						<img src="images/fix9.jpg" alt="">
+					</div>
+					
+					<div class="portfolio-text"> BEAR BIKE Custom Black</div>
+						<div class="stuff"> $419.00 </div>
+						</div>
+				</div>
+				
+				
+				
+			</main>
+
+		<aside class="gr_left">
+			<h1>SALE!</h1>
+				<div> 
+					<img src="images/salefix.png" width=100%height=auto>
+				</div>
+				
+				<h1 class="countdown-title">Time left</h1>
+				<div id="countdown" class="countdown">
+					<div class="countdown-number">
+						<div class="countdown-time timer__days">00</div>
+						<span class="countdown-text">Days</span>
+					</div>
+					<div class="countdown-number">
+						<div class="countdown-time timer__hours"></div>
+						<span class="countdown-text">Hours</span>
+					</div>
+					<div class="countdown-number">
+						<div class="countdown-time timer__minutes"></div>
+						<span class="countdown-text">Min</span>
+					</div>
+					<div class="countdown-number">
+						<div class="countdown-time timer__seconds"></div>
+						<span class="countdown-text">Sec</span>
+					</div>
+				</div>
+
+		</aside>
+		<aside class="gr_right">YOUR ADVERTISEMENT</aside>
+	
+	<section class="gr_section">
+	Contact
+
+  <div class="profile"><img src="images/icon.png" width=150px height=auto >
+    <h1>Share us with tips</h1>
+  </div>
+  <form method="post" action="form.php">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+	<div>
+	<label for="message">Message</label>
+      <textarea type="text" name="message" required ></textarea>
+	  </div>
+    <button type="submit">Send</button> 
+  </form> 
+	</section>
+</body>
+
+
+</html>
